@@ -21,4 +21,5 @@ nmcli con mod DeviceNo ipv4.method auto # DHCP
 nmcli con mod DeviceNo connection.autoconnect "yes" # 自動接続
 nmcli con down DeviceNo # 停止
 nmcli con up DeviceNo # 起動
+nmtui # GUI設定
 ```
